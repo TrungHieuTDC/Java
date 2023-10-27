@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="751" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="313" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jScrollPane2" pref="555" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Gi&#x1edb;i thi&#x1ec7;u"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="- Hai &#x111;&#x1ed3;ng h&#x1ed3; ch&#xed;nh &#x111;&#x1b0;&#x1ee3;c vi&#x1ec1;n cr&#xf4;m sang tr&#x1ecd;ng, nh&#x1eef;ng t&#xed;nh n&#x103;ng n&#x1ed5;i b&#x1ead;t &#x111;&#x1b0;&#x1ee3;c th&#x1ec3;&#xa; hi&#x1ec7;n b&#x1eb1;ng m&#xe0;u &#x111;&#x1ecf; v&#xe0; tr&#x1eaf;ng. Nh&#x1ea5;n m&#x1ea1;nh thi&#x1ebf;t k&#x1ebf; th&#x1ec3; thao, d&#x1ec5; nh&#xec;n v&#x1edb;i c&#x1ee5;m &#xa;&#x111;&#x1ed3;ng h&#x1ed3; ch&#xed;nh hi&#x1ec3;n th&#x1ecb; nhi&#x1ec7;t &#x111;&#x1ed9; v&#xe0; m&#x1ee9;c nhi&#xea;n li&#x1ec7;u, mang &#x111;&#x1ebf;n phong c&#xe1;ch nh&#x1b0; m&#x1ed9;t chi&#x1ebf;c &#x111;&#x1ed3;ng h&#x1ed3; th&#x1ec3; &#xa;thao th&#x1ef1;c th&#x1ee5;.&#xa;&#xa;-C&#xe1;c t&#xed;nh n&#x103;ng an to&#xe0;n d&#xe0;nh cho ng&#x1b0;&#x1edd;i &#x111;i b&#x1ed9; khi x&#x1ea3;y ra va ch&#x1ea1;m c&#x169;ng &#x111;&#x1b0;&#x1ee3;c xem x&#xe9;t k&#x1ef9; l&#x1b0;&#x1ee1;ng nh&#x1b0; n&#x1eaf;p ca-p&#xf4; h&#x1ea5;p th&#x1ee5;&#xa; l&#x1ef1;c t&#xe1;c &#x111;&#x1ed9;ng, g&#x1ea1;t m&#x1b0;a v&#xe0; c&#x1ea3;n tr&#x1b0;&#x1edb;c &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t k&#x1ebf; &#x111;&#x1ec3; gi&#x1ea3;m thi&#x1ec3;u ch&#x1ea5;n th&#x1b0;&#x1a1;ng &#x111;&#x1ea7;u v&#xe0; ch&#xe2;n.&#xa;&#xa;1. H&#x1ea5;p th&#x1ee5; l&#x1ef1;c t&#xe1;c &#x111;&#x1ed9;ng t&#x1eeb; ph&#xed;a tr&#xea;n n&#x1eaf;p ca-p&#xf4;.&#xa;2. H&#x1ea5;p th&#x1ee5; l&#x1ef1;c t&#xe1;c &#x111;&#x1ed9;ng t&#x1eeb; ph&#xed;a g&#x1ea1;t m&#x1b0;a.&#xa;3. H&#x1ea5;p th&#x1ee5; l&#x1ef1;c t&#xe1;c &#x111;&#x1ed9;ng t&#x1eeb; 2 b&#xea;n n&#x1eaf;p ca-p&#xf4;.&#xa;4. H&#x1ea5;p th&#x1ee5; l&#x1ef1;c t&#xe1;c &#x111;&#x1ed9;ng tr&#x1ef1;c di&#x1ec7;n n&#x1eaf;p ca-p&#xf4;.&#xa;5. H&#x1ea5;p th&#x1ee5; l&#x1ef1;c t&#xe1;c &#x111;&#x1ed9;ng t&#x1eeb; c&#x1ea3;n tr&#x1b0;&#x1edb;c.&#xa;&#xa;ABS theo d&#xf5;i chuy&#x1ec3;n &#x111;&#x1ed9;ng c&#x1ee7;a b&#xe1;nh xe th&#xf4;ng qua c&#xe1;c c&#x1ea3;m bi&#x1ebf;n g&#x1eaf;n v&#xe0;o b&#xe1;nh xe v&#xe0; t&#x1ef1; &#x111;&#x1ed9;ng &#x111;i&#x1ec1;u khi&#x1ec3;n t&#x1ed1;i &#x1b0;u l&#x1ef1;c &#xa;phanh, gi&#xfa;p ng&#x103;n ch&#x1eb7;n t&#xec;nh tr&#x1ea1;ng b&#xe1;nh xe b&#x1ecb; b&#xf3; c&#x1ee9;ng khi phanh &#x111;&#x1ed9;t ng&#x1ed9;t ho&#x1eb7;c di chuy&#x1ec3;n tr&#xea;n c&#xe1;c b&#x1ec1; m&#x1eb7;t tr&#x1a1;n tr&#x1b0;&#x1ee3;t.&#xa; K&#x1ebf;t h&#x1ee3;p v&#x1edb;i EBD (ph&#xe2;n ph&#x1ed1;i l&#x1ef1;c phanh &#x111;i&#x1ec7;n t&#x1eed;) gi&#xfa;p d&#x1eeb;ng xe m&#x1ed9;t c&#xe1;ch &#x1ed5;n &#x111;&#x1ecb;nh.&#xa;&#xa;* ABS l&#xe0; thi&#x1ebf;t b&#x1ecb; h&#x1ed7; tr&#x1ee3; ng&#x1b0;&#x1edd;i l&#xe1;i trong qu&#xe1; tr&#xec;nh phanh. N&#xf3; kh&#xf4;ng lo&#x1ea1;i b&#x1ecf; s&#x1ef1; c&#x1ea7;n thi&#x1ebf;t ph&#x1ea3;i l&#xe1;i xe m&#x1ed9;t c&#xe1;ch an to&#xe0;n&#xa;, v&#xed; d&#x1ee5; n&#xea;n gi&#x1ea3;m t&#x1ed1;c &#x111;&#x1ed9; khi chu&#x1ea9;n b&#x1ecb; v&#xe0;o cua.&#xa;&#xa;S&#x1ef1; an to&#xe0;n th&#x1ef1;c s&#x1ef1; l&#xe0; &#x111;i&#x1ec1;u c&#x1ea7;n thi&#x1ebf;t &#x111;&#x1ec3; t&#x1ead;n h&#x1b0;&#x1edf;ng c&#x1ea3;m gi&#xe1;c l&#xe1;i m&#x1ed9;t c&#xe1;ch tr&#x1ecd;n v&#x1eb9;n nh&#x1ea5;t. &#xa;Nh&#x1b0; v&#x1ead;y, Swift &#x111;&#xe3; &#x111;&#x1b0;&#x1ee3;c t&#xe1;i sinh m&#x1ed9;t l&#x1ea7;n n&#x1eef;a v&#x1edb;i vi&#x1ec7;c &#xe1;p d&#x1ee5;ng c&#xe1;c c&#xf4;ng ngh&#x1ec7; an to&#xe0;n ti&#xea;n ti&#x1ebf;n v&#x1b0;&#x1ee3;t b&#x1ead;c &#xa;ch&#x1b0;a t&#x1eeb;ng &#x1edf; b&#x1ea5;t k&#x1ef3; chi&#x1ebf;c xe Suzuki n&#xe0;o tr&#x1b0;&#x1edb;c &#x111;&#xf3;. Ngo&#xe0;i t&#xed;nh n&#x103;ng an to&#xe0;n &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t k&#x1ebf; &#x111;&#x1ec3; gi&#xfa;p b&#x1ea3;o v&#x1ec7; ng&#x1b0;&#x1edd;i ng&#x1ed3;i tr&#xea;n xe trong tr&#x1b0;&#x1edd;ng h&#x1ee3;p va ch&#x1ea1;m&#xa;, Swift c&#xf2;n n&#xe2;ng cao kh&#x1ea3; n&#x103;ng an to&#xe0;n ph&#xf2;ng ng&#x1eeb;a cho ng&#x1b0;&#x1edd;i ngo&#xe0;i xe khi x&#x1ea3;y ra s&#x1ef1; c&#x1ed1;.&#xa;&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="3" rowCount="4">
+                    <Column editable="true" title="Chi ti&#x1ebf;t" type="java.lang.Object"/>
+                    <Column editable="true" title="&#x110;o &#x111;&#x1a1;n v&#x1ecb;" type="java.lang.Object"/>
+                    <Column editable="true" title="GLX" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Th&#xf4;ng s&#x1ed1; k&#x129; thu&#x1ead;t"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quay l&#x1ea1;i"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
